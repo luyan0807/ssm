@@ -1,6 +1,6 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+   http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<modelVersion>4.0.0</modelVersion>
   <groupId>cn.jxnu.maven</groupId>
   <artifactId>maven</artifactId>
   <packaging>war</packaging>
@@ -14,6 +14,7 @@
     <slf4j.version>1.7.7</slf4j.version>
     <log4j.version>1.2.15</log4j.version>
     <lucene.version>6.0.1</lucene.version>
+    <shiro.version>1.2.3</shiro.version>
   </properties>
   <dependencies>
     <dependency>
@@ -151,13 +152,6 @@
       <artifactId>commons-codec</artifactId>
       <version>1.9</version>
     </dependency>
-    <!-- fastjson -->
-    <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
-    <dependency>
-      <groupId>com.alibaba</groupId>
-      <artifactId>fastjson</artifactId>
-      <version>1.2.35</version>
-    </dependency>
 
     <dependency>
       <groupId>org.apache.lucene</groupId>
@@ -192,9 +186,22 @@
       <artifactId>lucene-highlighter</artifactId>
       <version>${lucene.version}</version>
     </dependency>
-
-
-
+    <!--shiro!-->
+    <dependency>
+      <groupId>org.apache.shiro</groupId>
+      <artifactId>shiro-core</artifactId>
+      <version>${shiro.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.shiro</groupId>
+      <artifactId>shiro-web</artifactId>
+      <version>${shiro.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.shiro</groupId>
+      <artifactId>shiro-spring</artifactId>
+      <version>${shiro.version}</version>
+    </dependency>
   </dependencies>
   <build>
     <finalName>simplessm</finalName>
@@ -209,6 +216,6 @@
           <encoding>UTF-8</encoding>
         </configuration>
       </plugin>
-    </plugins>
+    </plugins>  
   </build>
 </project>
