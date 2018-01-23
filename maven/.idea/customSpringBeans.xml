@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CustomBeanRegistry">
+    <option name="map">
+      <map>
+        <entry key="&lt;jaxws:endpoint xmlns:jaxws=&quot;http://cxf.apache.org/jaxws&quot; implementor=&quot;#HelloWorld&quot; address=&quot;/HelloWorld&quot; publish=&quot;true&quot; /&gt;">
+          <value>
+            <list>
+              <CustomBeanInfo>
+                <option name="beanName" value="org.apache.cxf.jaxws.EndpointImpl---344882975" />
+                <option name="beanClassName" value="org.apache.cxf.jaxws.spring.EndpointDefinitionParser$SpringEndpointImpl" />
+                <option name="constructorArgumentCount" value="1" />
+              </CustomBeanInfo>
+            </list>
+          </value>
+        </entry>
+        <entry key="&lt;jaxws:endpoint xmlns:jaxws=&quot;http://cxf.apache.org/jaxws&quot; implementor=&quot;#helloWorld&quot; address=&quot;/HelloWorld&quot; publish=&quot;true&quot; /&gt;">
+          <value>
+            <list>
+              <CustomBeanInfo>
+                <option name="beanName" value="org.apache.cxf.jaxws.EndpointImpl---758482807" />
+                <option name="beanClassName" value="org.apache.cxf.jaxws.spring.EndpointDefinitionParser$SpringEndpointImpl" />
+                <option name="constructorArgumentCount" value="1" />
+              </CustomBeanInfo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
