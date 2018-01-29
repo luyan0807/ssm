@@ -83,6 +83,8 @@
           <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-security:9.2.15.v20160210" />
           <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-continuation:9.2.15.v20160210" />
           <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-http:9.2.15.v20160210" />
+          <element id="library" level="project" name="Maven: javax.websocket:javax.websocket-api:1.1" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-websocket:4.0.2.RELEASE" />
         </element>
       </element>
       <element id="directory" name="META-INF">

@@ -466,3 +466,97 @@ org.apache.cxf.interceptor.Fault: No binding operation info while invoking unkno
 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
 	at java.lang.Thread.run(Thread.java:748)
+[INFO] [2018-01-23 11:33:35][org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean]Creating Service {http://cxf.jxnu.cn/}HelloWorldService from class cn.jxnu.cxf.HelloWorld
+[INFO] [2018-01-23 11:33:36][org.apache.cxf.endpoint.ServerImpl]Setting the server's publish address to be http://192.168.6.111:8080/webservice/HelloWorld
+[INFO] [2018-01-23 11:33:36][org.eclipse.jetty.util.log]Logging initialized @1662ms
+[INFO] [2018-01-23 11:33:36][org.eclipse.jetty.server.Server]jetty-9.2.15.v20160210
+[WARN] [2018-01-23 11:33:36][org.eclipse.jetty.server.handler.AbstractHandler]No Server set for org.apache.cxf.transport.http_jetty.JettyHTTPServerEngine$1@210ab13f
+[INFO] [2018-01-23 11:33:36][org.eclipse.jetty.server.ServerConnector]Started ServerConnector@a8ef162{HTTP/1.1}{192.168.6.111:8080}
+[INFO] [2018-01-23 11:33:36][org.eclipse.jetty.server.Server]Started @1881ms
+[INFO] [2018-01-23 11:33:37][org.eclipse.jetty.server.handler.ContextHandler]Started o.e.j.s.h.ContextHandler@34129c78{/webservice,null,AVAILABLE}
+[ERROR] [2018-01-23 11:33:40][org.apache.cxf.service.invoker.AbstractInvoker]Invocation without a binding operation.
+[WARN] [2018-01-23 11:33:40][org.apache.cxf.phase.PhaseInterceptorChain]Interceptor for {http://cxf.jxnu.cn/}HelloWorldService has thrown exception, unwinding now
+org.apache.cxf.interceptor.Fault: No binding operation info while invoking unknown method with params unknown.
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:58)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$2.run(ServiceInvokerInterceptor.java:126)
+	at org.apache.cxf.workqueue.SynchronousExecutor.execute(SynchronousExecutor.java:37)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:131)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:254)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:234)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:70)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1129)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1065)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+[INFO] [2018-01-25 10:06:12][org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean]Creating Service {http://cxf.jxnu.cn/}HelloWorldService from class cn.jxnu.cxf.HelloWorld
+[INFO] [2018-01-25 10:06:13][org.apache.cxf.endpoint.ServerImpl]Setting the server's publish address to be http://192.168.6.111:8080/webservice/HelloWorld
+[INFO] [2018-01-25 10:06:13][org.eclipse.jetty.util.log]Logging initialized @1753ms
+[INFO] [2018-01-25 10:06:13][org.eclipse.jetty.server.Server]jetty-9.2.15.v20160210
+[WARN] [2018-01-25 10:06:13][org.eclipse.jetty.server.handler.AbstractHandler]No Server set for org.apache.cxf.transport.http_jetty.JettyHTTPServerEngine$1@1be2019a
+[INFO] [2018-01-25 10:06:13][org.eclipse.jetty.server.ServerConnector]Started ServerConnector@22f59fa{HTTP/1.1}{192.168.6.111:8080}
+[INFO] [2018-01-25 10:06:13][org.eclipse.jetty.server.Server]Started @1990ms
+[INFO] [2018-01-25 10:06:13][org.eclipse.jetty.server.handler.ContextHandler]Started o.e.j.s.h.ContextHandler@4c2bb6e0{/webservice,null,AVAILABLE}
+[INFO] [2018-01-25 10:38:05][org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean]Creating Service {http://cxf.jxnu.cn/}HelloWorldService from class cn.jxnu.cxf.HelloWorld
+[INFO] [2018-01-25 10:38:06][org.apache.cxf.endpoint.ServerImpl]Setting the server's publish address to be http://192.168.6.111:8080/webservice/HelloWorld
+[INFO] [2018-01-25 10:38:06][org.eclipse.jetty.util.log]Logging initialized @1610ms
+[INFO] [2018-01-25 10:38:06][org.eclipse.jetty.server.Server]jetty-9.2.15.v20160210
+[WARN] [2018-01-25 10:38:06][org.eclipse.jetty.server.handler.AbstractHandler]No Server set for org.apache.cxf.transport.http_jetty.JettyHTTPServerEngine$1@1be2019a
+[WARN] [2018-01-25 10:38:06][org.eclipse.jetty.util.component.AbstractLifeCycle]FAILED ServerConnector@4f0f2942{HTTP/1.1}{192.168.6.111:8080}: java.net.BindException: Address already in use: bind
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:321)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:366)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPServerEngine.addServant(JettyHTTPServerEngine.java:470)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPDestination.activate(JettyHTTPDestination.java:175)
+	at org.apache.cxf.transport.AbstractObservable.setMessageObserver(AbstractObservable.java:53)
+	at org.apache.cxf.binding.AbstractBindingFactory.addListener(AbstractBindingFactory.java:95)
+	at org.apache.cxf.binding.soap.SoapBindingFactory.addListener(SoapBindingFactory.java:896)
+	at org.apache.cxf.endpoint.ServerImpl.start(ServerImpl.java:123)
+	at org.apache.cxf.frontend.ServerFactoryBean.create(ServerFactoryBean.java:224)
+	at org.apache.cxf.jaxws.JaxWsServerFactoryBean.create(JaxWsServerFactoryBean.java:211)
+	at cn.jxnu.cxf.impl.Server.main(Server.java:16)
+[WARN] [2018-01-25 10:38:06][org.eclipse.jetty.util.component.AbstractLifeCycle]FAILED org.eclipse.jetty.server.Server@7139992f: java.net.BindException: Address already in use: bind
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:321)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:366)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPServerEngine.addServant(JettyHTTPServerEngine.java:470)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPDestination.activate(JettyHTTPDestination.java:175)
+	at org.apache.cxf.transport.AbstractObservable.setMessageObserver(AbstractObservable.java:53)
+	at org.apache.cxf.binding.AbstractBindingFactory.addListener(AbstractBindingFactory.java:95)
+	at org.apache.cxf.binding.soap.SoapBindingFactory.addListener(SoapBindingFactory.java:896)
+	at org.apache.cxf.endpoint.ServerImpl.start(ServerImpl.java:123)
+	at org.apache.cxf.frontend.ServerFactoryBean.create(ServerFactoryBean.java:224)
+	at org.apache.cxf.jaxws.JaxWsServerFactoryBean.create(JaxWsServerFactoryBean.java:211)
+	at cn.jxnu.cxf.impl.Server.main(Server.java:16)
+[ERROR] [2018-01-25 10:38:06][org.apache.cxf.transport.http_jetty.JettyHTTPServerEngine]Could not start Jetty server on port 8,080: Address already in use: bind
+[INFO] [2018-01-25 10:38:06][org.eclipse.jetty.server.ServerConnector]Stopped ServerConnector@4f0f2942{HTTP/1.1}{192.168.6.111:8080}
